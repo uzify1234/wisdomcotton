@@ -1,0 +1,174 @@
+.allinvoices
+{
+    width: 84vw;
+    /* padding-top: 100px; */
+    margin-left: 14vw;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.allinvoices .upperview
+{
+    position: fixed;
+    top: 0;
+    left: 17vw;
+    right: 0;
+    height: 120px;
+    background-color: #f0f0f0;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.allinvoices .upperview .onlydesktop
+{
+    display: block !important;
+    margin-top: 10px;
+}
+.allinvoices .upperview .onlymobile
+{
+    display: none !important;
+    margin-top: 10px;
+}
+.allinvoices .lowerview
+{
+    margin-top: 150px;
+  
+}
+.allinvoices .upperview input
+{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.allinvoices .upperview button
+{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.allinvoices h4
+{
+    color: black;
+    font-size: 1.1rem;
+    text-align: left;
+    
+}
+.allinvoices .contline
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+ 
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 7px;
+    margin-right: 0px !important;
+}
+.allinvoices .specialline
+{
+    padding: 20px 5px;
+    position: fixed;
+    top: 120px;
+    width: 80vw;
+    overflow-x: scroll;
+    background-color: white;
+    margin-bottom: 0px;
+}
+.allinvoices  .alldata
+{
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.allinvoices .contline .subline
+{
+    margin-right: 0px;
+    width: 9%;
+    margin-right: 1%;
+    
+    
+}
+.allinvoices .contline h5
+{
+    color: black;
+    text-align: left;
+    font-size: 0.6rem;
+    margin: 0px;
+    margin-right: 0px !important;
+    word-wrap: break-word;
+}
+.allinvoices .contline h4
+{
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 0.66rem;
+    margin-right: 0px !important;
+    word-wrap: break-word;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .allinvoices
+    {
+        width: 100vw;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .allinvoices .upperview
+    {
+        padding-left: 10px;
+        background-color: white;
+        top: 50px;
+        left: 0px;
+    }
+
+    .allinvoices .upperview div
+    {
+        /* width: 40%; */
+    }
+    .allinvoices .lowerview
+    {
+        width: auto;
+        background-color: white;
+
+    }
+    .allinvoices .upperview button
+    {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .allinvoices .upperview input
+    {
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .allinvoices .contline
+    {
+        margin-bottom: 20px;
+    
+    }
+    .allinvoices .contline .subline
+    {
+        width: 200px;
+        margin-right: 20px;
+    }
+    .allinvoices .upperview .onlydesktop
+{
+    display: none !important;
+}
+.allinvoices .upperview .onlymobile
+{
+    display: block !important;
+}
+}

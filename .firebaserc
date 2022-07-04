@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "wisdomcotton-2b752",
+    "staging": "wisdomcotton-2b752"
+  },
+  "targets": {}
+}

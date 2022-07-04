@@ -1,0 +1,140 @@
+.reportssection
+{
+    /* width: 84vw; */
+    /* padding-top: 100px; */
+    margin-left: 14vw;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+
+}
+
+.reportssection .upperview
+{
+    position: fixed;
+    top: 0;
+    left: 16vw;
+    right: 0;
+    height: 120px;
+    background-color: #f0f0f0;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1010;
+    
+
+}
+.reportssection .upperview .extra
+{
+    margin-left: 20px;
+
+}
+.reportssection .upperview button
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-left: 20px;
+}
+.reportssection .lowerview
+{
+    margin-top: 140px;
+}
+.reportssection .lowerview table {
+    min-width: 30vw;
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    background-color: #f0f0f0;
+}
+
+.reportssection .lowerview table thead
+{
+    background-color: white;
+    height: 40px;
+}
+
+.reportssection .lowerview table tr th{
+    background: white;
+    position: sticky;
+    top: 120px; /* Don't forget this, required for the stickiness */
+    padding: 2px 5px;
+    font-size: 0.7rem;
+    min-width: 80px;
+    text-align: center;
+}
+.reportssection .lowerview table tr td
+{
+    font-size: 0.6rem;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.reportssection h4
+{
+    color: black;
+    font-size: 1.1rem;
+    text-align: left;
+    
+}
+.reportssection select
+{
+    border : 2px solid black;
+    padding: 10px;
+}
+.reportssection .upperview .onlydesktop
+{
+    display: block !important;
+}
+.reportssection .upperview .onlymobile
+{
+    display: none !important;
+}
+.reportssection .upperview div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reportssection .upperview div h4
+{
+    margin-right: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .reportssection
+    {
+        width: 100vw;
+        margin-left: 0px;
+        padding-left: 10px;
+        background-color: white;
+    }
+    .reportssection .upperview
+    {
+        background-color: white;
+        top: 50px;
+        left: 0px;
+    }
+
+ 
+    .reportssection .lowerview
+    {
+        background-color: white;
+    }
+    .reportssection .upperview .onlydesktop
+    {
+        display: none !important;
+    }
+    .reportssection .upperview .onlymobile
+    {
+        display: block !important;
+        margin-top: 10px;
+    }
+
+}

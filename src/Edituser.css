@@ -1,0 +1,64 @@
+.edituser
+{
+    width: 84vw;
+    /* padding-top: 100px; */
+    margin-left: 14vw;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.edituser .allinputs
+{
+    display: flex;
+    flex-direction: row;
+}
+.edituser .allinputs h5
+{
+    text-align: left;
+}
+.edituser .allinputs input , .edituser .allinputs select
+{
+    padding: 5px;
+    border-radius: 5px;
+    border :  2px solid black;
+}
+.edituser .allinputs .eachinputholder
+{
+    margin-right: 20px;
+}
+
+.edituser button
+{
+    margin-top: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.edituser .onlymobile
+{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .edituser
+    {
+        width: 100vw;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .edituser .allinputs
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .edituser .allinputs input, .edituser .allinputs select
+    {
+        float: left;
+        width: 80%;
+    }
+}

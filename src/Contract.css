@@ -1,0 +1,216 @@
+.contract
+{
+    width: 84vw;
+    padding-top: 100px;
+    margin-left: 18vw;
+    padding-left: 50px;
+
+}
+.contract .upperview
+{
+    position: fixed;
+    top: 0;
+    left: 17vw;
+    right: 0;
+    height: 100px;
+    background-color: #f0f0f0;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contract .upperview button
+{
+    width: 25%;
+    float: right;
+    
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin-right: 40px;
+    
+}
+.contract .halves
+{
+    display: flex;
+    flex-direction: row;
+}
+.editcontract .halves
+{
+    display: flex;
+    flex-direction: column;
+}
+.editcontract .halves .row1
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+.editcontract .halves .row1 .eachinputholder
+{
+    width: 25%;
+}
+.editcontract .halves .row1 .eachinputholderspecial
+{
+    width: 50%;
+}
+.contract .half1 ,.contract .half2
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.contract h4
+{
+    color: black;
+    font-size: 1.0rem;
+    text-align: left;
+    
+}
+.contract h5
+{
+    color: black;
+    font-size: 0.7rem;
+    text-align: left;   
+    margin-bottom: 5px; 
+    margin-top: 5px;
+}
+.contract h6
+{
+    color: black;
+    font-size: 0.9rem;
+    text-align: left;   
+    margin-bottom: 5px; 
+    margin-top: 35px;
+}
+.contract .textinput
+{
+    width: 80%;
+    float: left;
+    border-radius: 5px;
+    border : 2px solid black;
+    padding: 5px;
+    height: 20px;
+}
+.contract input
+{
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    float: left;
+    border-radius: 5px;
+    border : 2px solid black;
+    padding: 5px;
+    height: 20px;
+}
+
+.contract .eachinputholder select 
+{
+    width: 80%;
+    float: left;
+    border-radius: 5px;
+    border : 2px solid black;
+    padding: 6px;
+}
+
+.contract .eachinputholder button
+{
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.contract .radios
+{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 0.9rem;
+    width: 80%;
+    float: left;
+    margin-top: 10px;
+    
+}
+.contract .radios div
+{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.contract .radios div input
+{
+    width: 50%;
+}
+
+.contract .eachinputholder .delbtn
+{
+    background-color: #FF0000;
+}
+.contract .onlymobile
+{
+    display: none;
+}
+
+.cancellcbutton
+{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .contract
+    {
+        width: 150vw;
+        margin-left: 0px;
+        padding-left: 10px;
+        background-color: white;
+        padding-top: 10px;
+    }
+    .contract .upperview
+    {
+        padding-left: 0px;
+        left: 0px;
+        padding-left: 10px;
+        justify-content: space-around;
+        background-color: white;
+        top: 50px;
+    }
+    .contract .onlymobile
+    {
+        display: block;
+    }
+    .contract .textinput
+    {
+        width: 80%;
+    }
+    .contract .halves
+    {
+        width: 150vw;
+        background-color: white;
+    }
+    .contract .halves .half1
+    {
+        background-color: white;
+    }
+
+}

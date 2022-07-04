@@ -1,0 +1,200 @@
+.allcontracts
+{
+    width: 84vw;
+    /* padding-top: 100px; */
+    margin-left: 14vw;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+   
+}
+.allcontracts .upperview
+{
+    position: fixed;
+    top: 0;
+    left: 17vw;
+    right: 0;
+    height: 150px;
+    background-color: #f0f0f0;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.allcontracts .upperview .onlydesktop
+{
+    display: block;
+    margin-top: 10px;
+}
+.allcontracts .upperview .onlymobile
+{
+    display: none;
+    margin-top: 10px;
+}
+.allcontracts .lowerview
+{
+    margin-top: 150px;
+    /* position: relative; */
+  
+}
+.allcontracts .upperview input
+{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.allcontracts .upperview button
+{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+.allcontracts h4
+{
+    color: black;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
+}
+.allcontracts .contline
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+ 
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 97%;
+    margin-bottom: 7px;
+    margin-right: 0px !important;
+}
+.allcontracts .specialline
+{
+    padding: 20px;
+    position: fixed;
+    top: 150px;
+    width: 80vw;
+    overflow-x: scroll;
+}
+.allcontracts  .alldata
+{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.allcontracts .contline .subline
+{
+    margin-right: 0px;
+    width: 9%;
+    margin-right: 1%;
+    
+    
+}
+.allcontracts .contline .subline:hover
+{
+    cursor: default;
+}
+.allcontracts .contline h5
+{
+    color: black;
+    text-align: left;
+    font-size: 0.6rem;
+    margin: 0px;
+    margin-right: 0px !important;
+    word-wrap: break-word;
+}
+
+.allcontracts .contline h4
+{
+    margin: 0px;
+    margin-top: 0px;
+    font-size: 0.66rem;
+    margin-right: 0px !important;
+    word-wrap: break-word;
+    padding-left: 10px;
+}
+
+.allusers .contline .subline
+{
+    width: 25%;
+}
+
+.custommodal h2
+{
+    color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .allcontracts {
+        width: 100vw;
+        margin-left: 0px;
+        padding-left: 5px;
+        background-color: white;
+    }
+    * .onlymobile
+    {
+        z-index: 1023;
+        background-color: white;
+    }
+    .allcontracts .upperview
+    {
+        left: 0px;
+        padding-left: 10px;
+        width: 100vw;
+        background-color: white;
+        top: 50px;
+        z-index: 1009;
+    }
+    .allcontracts .upperview div
+    {
+        width: 40%;
+    }
+    .allcontracts .lowerview
+    {
+        width: auto;
+        background-color: white;
+        z-index: 1015;
+
+    }
+    .allcontracts .upperview button
+    {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .allcontracts .upperview input
+    {
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .allcontracts .contline
+    {
+        margin-bottom: 20px;
+    
+    }
+    .allcontracts .contline .subline
+    {
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .allcontracts .upperview .onlydesktop
+{
+    display: none;
+}
+.allcontracts .upperview .onlymobile
+{
+    display: block;
+}
+}

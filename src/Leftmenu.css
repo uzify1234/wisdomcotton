@@ -1,0 +1,53 @@
+.leftmenu
+{
+    width: 16vw;
+    background-color: white;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    bottom: 0;
+    z-index: 1010;
+}
+.leftmenu h3
+{
+    color: grey;
+    font-size: 0.8rem;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+.leftmenu img 
+{
+    width: 70%;
+}
+
+.leftmenu h4
+{
+    color: #495B25;
+    font-size: 1.0rem;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    border-left: 4px solid #495B25;
+}
+.leftmenu h4:hover
+{
+    background-color: white;
+    cursor: pointer;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .leftmenu {
+        display: none;
+    }
+
+}
